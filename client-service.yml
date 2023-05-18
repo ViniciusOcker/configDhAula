@@ -1,1 +1,3 @@
+server:
+  port: 9095
 message: Teste client-service yml
