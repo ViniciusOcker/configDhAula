@@ -15,6 +15,7 @@ management:
       show-details: always
 info:
   author: Vinicius Ocker Fagundes
+  version: 1.0.0
 server:
   port: ${PORT:7999}
 message: Uma mensagem qualquer
