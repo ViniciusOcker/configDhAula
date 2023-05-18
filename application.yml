@@ -16,5 +16,5 @@ management:
 info:
   author: Vinicius Ocker Fagundes
 server:
-  port: ${PORT:9999}
+  port: ${PORT:7999}
 message: Uma mensagem qualquer
