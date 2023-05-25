@@ -17,3 +17,11 @@ spring:
           filters:
             - AddRequestHeader=course-request-header, custom-course-request-header
             - AddResponseHeader=course-response-header, custom-course-response-header
+log4j:
+  appender:
+    file: org.apache.log4j.RollingFileAppender
+      File: systemlog.log
+      MaxFileSize: 10MB
+      MaxBackupIndex: 20
+      layout: org.apache.log4j.PatternLayout
+        ConversionPattern: [%d{yyyy-MM-dd HH:mm:ss}] [%-5p] [%c{1}:%L] - %m%n
